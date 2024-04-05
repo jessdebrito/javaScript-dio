@@ -6,3 +6,13 @@ if (numeroDividivelPor5) {
 } else {
     console.log('Não');
 }
+
+
+
+if (numero === 0) {
+    console.log('O número é válido');
+} else if (numeroDividivelPor5) {
+    console.log('Sim');
+} else {
+    console.log('Não');
+}
