@@ -1,6 +1,6 @@
 // R$/litro
-const preco__Etanol = 2.5112;
-const preco__Gasolina = 5.480;
+const preco__Etanol = 5.79;
+const preco__Gasolina = 6.66;
 
 //  Gasto médio de combustível do carro por KM;
 const kmPorLitro__Ethanol = 10;
