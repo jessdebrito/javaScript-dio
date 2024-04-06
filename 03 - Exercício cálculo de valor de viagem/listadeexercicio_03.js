@@ -28,3 +28,9 @@ if (formaPagamento === 1) {
 } else {
     console.log(credito2);
 }
+
+
+const nomeDoProfessor = 'Renan Johannsen de Paula';
+
+nomeDoProfessor = 'Vitor Johansen Guerra';
+console.log(nomeDoProfessor);
