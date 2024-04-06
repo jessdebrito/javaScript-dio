@@ -14,8 +14,11 @@ const nota1 = 5;
 const nota2 = 5;
 const nota3 = 10;
 
+/* 
 const nota4 = nota1 + nota2 + nota3;
-const notaMedia = nota4 / 3;
+const notaMedia = nota4 / 3; */
+
+const notaMedia = ( nota1 + nota2 + nota3 ) / 3;
 
 if (notaMedia < 5) {
     console.log('Você foi reprovado')
