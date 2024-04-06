@@ -9,21 +9,28 @@ Classificação:
 - Média acima de 7, passou de semestre;
 */
 
-
 const nota1 = 5;
-const nota2 = 5;
+const nota2 = 10;
 const nota3 = 10;
 
 /* 
 const nota4 = nota1 + nota2 + nota3;
 const notaMedia = nota4 / 3; */
 
-const notaMedia = ( nota1 + nota2 + nota3 ) / 3;
+const notaMedia = (nota1 + nota2 + nota3) / 3;
+
+/* if (notaMedia < 5) {
+  console.log("Você foi reprovado");
+} else if (notaMedia > 7) {
+  console.log("Você foi aprovado");
+} else {
+  console.log("Você está de recuperação");
+} */
 
 if (notaMedia < 5) {
-    console.log('Você foi reprovado')
-} else if (notaMedia > 7 ) {
-    console.log('Você foi aprovado')
+  console.log("Você foi reprovado");
+} else if (notaMedia >= 5 && notaMedia <= 7) {
+  console.log("Você está de recuperação");
 } else {
-    console.log('Você está de recuperação')
+  console.log("Você foi aprovado");
 }
