@@ -47,9 +47,9 @@ console.log(classificarImc(imc));
 // criando uma function main:
 
 function calcularImc(peso, altura) {
-    return peso / ( altura * altura ); // peso / Math.pow(altura,2)
+    return peso / Math.pow(altura,2);
+    // return peso / ( altura * altura ); // peso / Math.pow(altura,2)
 };
-
 
 function classificarImc(imc) {
 
@@ -62,16 +62,29 @@ function classificarImc(imc) {
     } else if (imc >= 30 && imc < 40) {
         return 'Obeso';
     } else {
-        return 'Obesidade Grave';
+        return 'Obesidade Grave'
     }
 };
 
+
+// cria e execura imediatamente a função
+// Main
+(function() {
+    const altura = 1.60;
+    const peso =  55;
+    
+    const imc = calcularImc(peso, altura);
+    console.log(classificarImc(imc));
+})();
+// --------------------------------------
+
+/*
 function main() {
     const altura = 1.60;
     const peso =  55;
     
     const imc = calcularImc(peso, altura);
     console.log(classificarImc(imc));
-}
+};
 
-main();
+ main(); */
