@@ -21,3 +21,5 @@ class Pessoa{
     }
 }
 
+const jose = new Pessoa ('José', 70, 1.75);
+console.log(jose)
