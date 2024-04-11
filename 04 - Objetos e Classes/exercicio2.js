@@ -22,4 +22,7 @@ class Pessoa{
 }
 
 const jose = new Pessoa ('José', 70, 1.75);
-console.log(jose)
+console.log(jose.calcularImc());
+
+const jessica = new Pessoa ('Jéssica', 53, 1.60);
+console.log(jessica.calcularImc());
