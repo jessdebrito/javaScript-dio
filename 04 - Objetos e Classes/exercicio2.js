@@ -16,4 +16,8 @@ class Pessoa{
 
     }
 
+    calcularImc(){
+       return this.peso / (this.altura * this.altura)
+    }
 }
+
