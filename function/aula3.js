@@ -31,7 +31,7 @@ Código Condição de pagamento:
 4 - Acima de duas vezes, preço normal de etiqueta mais juros de 10%;
 */
 
-
+/* 
 
 function applyDiscount( valor, desconto ){
     return ( valor - (valor * ( desconto / 100 )) );
@@ -53,3 +53,10 @@ if (formaPagamento === 1) {
 } else {
     console.log(applyInterest(preco, 10));
 }
+ */
+
+function incrementarJuros(valor, percentualDeJuros) {
+    const incremento = (percentualDeJuros / 100) * valor;
+    return valor + incremento;
+}
+incrementarJuros (100)
